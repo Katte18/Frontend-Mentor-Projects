@@ -6,6 +6,10 @@
 
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
   
+  <!-- QR library -->
+  <script type="text/javascript" src="https://unpkg.com/qr-code-styling/lib/qr-code-styling.js"></script>
+  <!-- end of QR library -->
+  
   <title>Frontend Mentor | QR code component</title>
 
   <!-- google fonts -->
@@ -20,25 +24,76 @@
 </head>
 
 <body>
-
   <div class="wrapper">
-    <div class="main-container">
 
-      <!-- image container -->
-      <div class="img-container">
-        <img src="./images/image-qr-code.png" alt="qr code" class="main-img" width="300">
-      </div>
-      <!-- end of image container -->
+    <!-- Main container -->
+      <div class="main-container" id="main-container">
+        
+        <!-- image container -->
+        <div class="img-container">
+          <img src="./images/image-qr-code.png" alt="qr code" class="main-img" width="300">
+        </div>
+        <!-- end of image container -->
 
-      <!-- text container -->
-      <div class="text-container">
-        <h1>Improve your front-end skills by building projects</h1>
-        <p>Scan the QR code to visit Frontend Mentor and take your coding skills to the next level</p>
-      </div>
-      <!-- end of text container -->
+        <!-- text container -->
+        <div class="text-container">
+          <h1>Improve your front-end skills by building projects</h1>
+          <p>Scan the QR code to visit Frontend Mentor and take your coding skills to the next level</p>
+          <a href="#generate-container" class="main-container-link">Click here to generate QR Code</a>
+        </div>
+        <!-- end of text container -->  
       
-    </div>
+      </div>
+    <!-- end of main container -->
+    
+
+    <!-- QR container -->
+
+      <div class="generate-container" id="generate-container">
+        
+        <!-- qr mode container -->
+        <div class="qr-mode-container">
+          <ul class="qr-mode">
+            <li class="active">Basic</li>
+            <li>Medium</li>
+            <li>Advance</li>
+          </ul>
+        </div>
+        <!-- end of qr mode container -->
+
+        <!-- qr generator container -->
+        <div class="qr-text-container">
+          <label class="qr-text-label">Paste URL or text to create QR code</label>
+          <input class="qr-generator-input" type="text" name="" id="qr-generator-input" placeholder="enter text or url here...">
+
+          <div class="qr-download">
+            <span>Download:</span>
+            <div class="qr-file-type">
+              <li id="qr-png">PNG</li>
+              <li id="qr-jpg">JPG</li>
+            </div>
+          </div>
+
+          <button class="qr-generate">Generate QR code</button>
+          <!-- end of qr generator container -->
+
+          <a href="#main-container" class="generate-container-link">Back to QR Frontend Mentor code</a>
+
+                  
+        <!-- qr image container -->
+        <div class="qr-img-container">
+          <img src="" alt="qr code" id="qr-img-generated">
+        </div>
+        <!-- end of qr image container -->
+
+        </div>
+        
+      </div>
+    <!-- end of QR generator container --> 
   </div>
 
+  <!-- js files -->
+  <script src="./main.js"></script>
+  <!-- end of js files -->
 </body>
 </html>
