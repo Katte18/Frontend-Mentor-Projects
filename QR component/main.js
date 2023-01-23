@@ -112,14 +112,14 @@ let properties = {
             color: "white",
         },
         dotsOptions: {
-            color: "#505ADC",
-            type: "extra-rounded"
+            color: "black",
+            type: "square"
         },
         cornersSquareOptions:{
-            type: "extra-rounded"
+            type: "square"
         },
         cornersDotOptions:{
-            type: "dot"
+            type: "square"
         },
         imageOptions: {
             margin: 0,
