@@ -4,7 +4,6 @@
     --primary-cream: #f2ebe3;
     
     --neutral-darkblue: #1c232b;
-    --neutral-grayishblue: #6c7289;
     --neutral-white: #ffffff;
 }
 
@@ -260,7 +259,7 @@ input {
             width: 75px;
         }
 
-        .shopping-cart-window h1 {
+        .shopping-cart-window h4 {
             width: 100%;
             text-align: center;
         }
