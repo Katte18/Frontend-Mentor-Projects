@@ -60,6 +60,22 @@ main {
     display: grid;
     grid-template-rows: 75px 90px ;
     padding: 25px;
+    position: relative;
+}
+
+div {
+    z-index: 2;
+}
+
+.quote {
+    width: 20%;
+    border-radius: 0;
+    position: absolute;
+    margin-right: 10%;
+    width: 30%;
+    right: 0;
+    top: 0;
+    z-index: 1;
 }
 
 div {
