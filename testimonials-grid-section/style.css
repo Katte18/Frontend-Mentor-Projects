@@ -78,21 +78,6 @@ div {
     z-index: 1;
 }
 
-div {
-    z-index: 2;
-}
-
-.quote {
-    width: 20%;
-    border-radius: 0;
-    position: absolute;
-    margin-right: 10%;
-    width: 30%;
-    right: 0;
-    top: 0;
-    z-index: 1;
-}
-
 .border-light {
     border-radius: 50%;
     border: 1px solid hsl(263, 88%, 74%);;
