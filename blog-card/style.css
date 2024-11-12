@@ -102,6 +102,11 @@ a {
     color: var(--main-bg-color);
 }
 
+.card-txt p {
+    color: var(--text-font-color-500);
+    font-weight: var(--font-500);
+}
+
 .card-author {
     display: flex;
     justify-content: flex-start;
