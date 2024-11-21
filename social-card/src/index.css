@@ -1,0 +1,106 @@
+/* fonts */
+
+@font-face {
+  font-family: "InterAll";
+  src: url('./fonts/Inter-VariableFont_slnt\,wght.ttf');
+}
+
+/* variables for primary dark theme */
+:root {
+  --green: hsl(75, 94%, 57%); 
+  --white: hsl(0, 0%, 98%); 
+  --grey-700: hsl(0, 0%, 20%); 
+  --grey-800: hsl(0, 0%, 12%); 
+  --grey-900: hsl(0, 0%, 8%);
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+/* general CSS */
+
+body {
+  font-family: InterAll, sans-serif;
+  font-size: 0.9rem;
+  font-weight: 400;
+  line-height: 2rem;
+  letter-spacing: 1px;
+}
+
+button {
+  width: 120%;
+  border: none;
+  cursor: pointer;
+  font-family: inherit;
+  font-size: inherit;
+  background-color: var(--grey-700);
+  color: inherit;
+  padding: 1rem;
+  margin: 0.5rem;
+  border-radius: 8px;
+}
+
+button:hover {
+  background-color: var(--grey-900);
+}
+
+button:active {
+  background-color: var(--green);
+  opacity: 0.5;
+  color: var(--grey-800);
+}
+
+h2 {
+  font-weight: 700;
+}
+
+/* component CSS */
+
+.main-container {
+    width: 100vw;
+    height: 100vh;  
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 4rem 2rem;
+}
+
+.component-container {
+    background-color: var(--grey-800);
+    padding: 2rem 4rem;
+    border-radius: 12px;
+    position: relative;
+}
+
+section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+}
+
+.user-info {
+  gap: 1rem;
+}
+
+.user-info-img img {
+  border-radius: 50%;
+  width: 6rem;
+}
+
+.user-info-name p {
+  color: var(--green);
+}
+
+q {
+  font-weight: 600;
+}
+
+.user-info-name p, q {
+  font-size: 0.8rem;
+}
