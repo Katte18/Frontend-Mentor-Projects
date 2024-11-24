@@ -88,7 +88,7 @@ table tr:not(:last-child) {
 
 /* section CSS */
 main.recipe-container {
-    max-width: 684px;
+    max-width: 690px;
     height: auto;
     background-color: var(--White);
     padding: 2.4rem;
