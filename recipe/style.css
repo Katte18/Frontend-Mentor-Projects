@@ -60,11 +60,6 @@ h2 {
     color: var(--Brown-800);
 }
 
-h3 {
-    color: var(--Rose-800);
-    margin-bottom: 1rem;
-}
-
 h1, h2 {
     font-family: YoungSerif, serif;
     margin-bottom: 2rem;
@@ -111,6 +106,13 @@ section {
     margin-top: 1.4rem;
     padding: 2rem;
     border-bottom: none;
+}
+
+.preparation-time p {
+    color: var(--Rose-800);
+    margin-bottom: 1rem;
+    font-weight: 600;
+    font-size: 1.3rem;
 }
 
 .ingredients ul li {
