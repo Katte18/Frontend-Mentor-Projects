@@ -1,0 +1,166 @@
+@font-face {
+    font-family: "YoungSerif";
+    src: url('./assets/fonts/young-serif/YoungSerif-Regular.ttf');
+}
+
+@font-face {
+    font-family: "Specimen";
+    src: url('./assets/fonts/outfit/Outfit-VariableFont_wght.ttf');
+}
+
+:root {
+    /* colors */
+    --White: hsl(0, 0%, 100%);
+    --Stone-100: hsl(30, 54%, 90%);
+    --Stone-150: hsl(30, 18%, 87%);
+    --Stone-600: hsl(30, 10%, 34%);
+    --Stone-900: hsl(24, 5%, 18%);
+    --Brown-800: hsl(14, 45%, 36%);
+    --Rose-800: hsl(332, 51%, 32%);
+    --Rose-50: hsl(330, 100%, 98%);
+
+    /* typography */
+    --Font-size-paragraph: 16px;
+    --Font-weight-main: 400;
+}
+
+
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* general CSS */
+body {
+    background-color: var(--Stone-100);
+    color: var(--Stone-600);
+    width: 100%;
+    height: 100%;
+    margin: 4% ;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+    font-family: Specimen, serif;
+    font-weight: var(--Font-weight-main);
+    line-height: 1.8rem;
+}
+
+h1 {
+    color: var(--Stone-900);
+    font-size: 2rem;
+    letter-spacing: 0.1rem;
+}
+
+h2 {
+    color: var(--Brown-800);
+}
+
+h3 {
+    color: var(--Rose-800);
+    margin-bottom: 1rem;
+}
+
+h1, h2 {
+    font-family: YoungSerif, serif;
+    margin-bottom: 2rem;
+}
+
+picture img {
+    border-radius: 12px;
+}
+
+img {
+    width: 100%;
+}
+
+li {
+    margin-inline-start: 1rem;
+    padding-inline-start: 0.8rem;
+}
+
+span {
+    font-weight: 700;
+}
+
+table tr:not(:last-child) {
+    border-bottom: 1px solid var(--Stone-150);
+}
+
+/* section CSS */
+main.recipe-container {
+    max-width: 684px;
+    height: auto;
+    background-color: var(--White);
+    padding: 2.4rem;
+    border-radius: 22px;
+}
+
+section {
+    padding: 2rem 0;
+}
+
+
+.preparation-time {
+    background-color: var(--Rose-50);
+    border-radius: 12px;
+    margin-top: 1.4rem;
+    padding: 2rem;
+    border-bottom: none;
+}
+
+.ingredients ul li {
+    list-style: square;
+}
+
+.ingredients ul li::marker,
+.instructions ol li::marker,
+.nutrition table tr td span {
+    color: var(--Brown-800);
+    font-weight: 700;
+}
+
+.nutrition table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.nutrition table tr td {
+    padding: 0.8rem 1.4rem;
+}
+
+footer .attribution {
+    margin-top: 0.5rem;
+}
+
+/* mobile CSS */
+@media screen and (max-width: 600px) {
+    body {
+        margin: 0;
+        background-color: var(--White);
+    }
+
+    main.recipe-container {
+        max-width: none;
+        padding: 0;
+        border-radius: 0;
+    }
+
+    main.recipe-container section {
+        margin: 0 2rem;
+    }
+    
+    picture img {
+        border-radius: 0;
+    }
+
+    h1 {
+        line-height: 2rem;
+    }
+
+
+}
