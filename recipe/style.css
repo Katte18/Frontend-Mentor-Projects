@@ -108,9 +108,10 @@ section {
     border-bottom: none;
 }
 
-.preparation-time p {
+.preparation-time h2 {
     color: var(--Rose-800);
     margin-bottom: 1rem;
+    font-family: Specimen;
     font-weight: 600;
     font-size: 1.3rem;
 }
