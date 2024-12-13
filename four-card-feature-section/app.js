@@ -22,7 +22,6 @@ async function contentCard() {
             </figure>
           </div>`;
     }
-
   } catch ({ name, message }) {
     articleCard.innerHTML += `
         <h2>Error: ${name}</h2>

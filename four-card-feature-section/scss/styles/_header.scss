@@ -1,17 +1,17 @@
 header {
     text-align: center;
     margin: 1.4rem;
+
+    h2 {
+        font-weight: map-get($font-weights, light);
+    }
+
+    p {
+        margin: 1rem 0;
+        font-weight: map-get($font-weights, medium);
+    }
 }
 
-
-h2 {
-    font-weight: map-get($font-weights, light);
-}
-
-header p {
-    margin: 1rem 0;
-    font-weight: map-get($font-weights, medium);
-}
 
 @media screen and (min-width: 600px) {
     header p {
