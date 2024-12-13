@@ -32,7 +32,7 @@ async function contentCard() {
         cardItemMaxHeight = cardItem[i].offsetHeight;
       }
     }
-    cardItem.map((i) => (i.style.height = cardItemMaxHeight * 1.3 + "px"));
+    cardItem.map((i) => (i.style.height = cardItemMaxHeight + "px"));
   } catch ({ name, message }) {
     articleCard.innerHTML += `
         <h2>Error: ${name}</h2>
