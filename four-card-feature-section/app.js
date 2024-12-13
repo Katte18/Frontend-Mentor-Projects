@@ -23,16 +23,6 @@ async function contentCard() {
           </div>`;
     }
 
-    // align all cards with max height
-    let cardItem = [...document.querySelectorAll(".card > div")];
-    let cardItemMaxHeight = cardItem[0].offsetHeight;
-
-    for (let i = 1; i < cardItem.length; i++) {
-      if (cardItem[i].offsetHeight > cardItemMaxHeight) {
-        cardItemMaxHeight = cardItem[i].offsetHeight;
-      }
-    }
-    cardItem.map((i) => (i.style.height = cardItemMaxHeight + "px"));
   } catch ({ name, message }) {
     articleCard.innerHTML += `
         <h2>Error: ${name}</h2>
