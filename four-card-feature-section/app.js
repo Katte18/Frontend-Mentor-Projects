@@ -22,7 +22,8 @@ async function contentCard() {
             </figure>
           </div>`;
     }
-        // align all cards with max height
+
+    // align all cards with max height
     let cardItem = [...document.querySelectorAll(".card > div")];
     let cardItemMaxHeight = cardItem[0].offsetHeight;
 
