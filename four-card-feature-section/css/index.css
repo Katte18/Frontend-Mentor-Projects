@@ -9,11 +9,9 @@ header {
   text-align: center;
   margin: 1.4rem;
 }
-
-h2 {
+header h2 {
   font-weight: 200;
 }
-
 header p {
   margin: 1rem 0;
   font-weight: 400;
@@ -25,13 +23,19 @@ header p {
     max-width: 60%;
   }
 }
-article {
+main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  flex-direction: column;
+}
+main article {
   display: grid;
   align-items: center;
   justify-items: center;
 }
-
-.card > div {
+main article > div {
   background-color: #fff;
   max-width: 20rem;
   margin: 1.2rem;
@@ -39,19 +43,16 @@ article {
   border-radius: 6px;
   box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 15px -3px, rgba(0, 0, 0, 0.05) 0px 4px 6px -2px;
 }
-
-.card div h2 {
+main h2 {
   font-size: 1.2rem;
   font-weight: 600;
 }
-
-.card div p {
+main p {
   margin-top: 0.8rem;
   font-size: 0.8rem;
   font-weight: 400;
 }
-
-.card div figure {
+main figure {
   float: right;
   padding-top: 1.4rem;
 }
@@ -95,18 +96,15 @@ article {
 }
 
 footer {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-wrap: wrap;
-  flex-direction: column;
   padding: 1rem 0;
 }
-
-.attribution {
+footer .attribution {
   text-align: center;
   padding: 0 0.8rem;
   color: hsl(234, 12%, 34%);
+}
+footer a {
+  color: #6A8BF5;
 }
 
 body {
@@ -132,9 +130,4 @@ h2 {
 
 a {
   text-decoration: none;
-  opacity: 1;
-}
-
-a:active {
-  opacity: 0.8;
 }/*# sourceMappingURL=index.css.map */
