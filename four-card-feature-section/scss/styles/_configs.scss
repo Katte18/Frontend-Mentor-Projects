@@ -1,0 +1,55 @@
+// variables
+
+$primary-color: (
+    "Red-color": hsl(0, 78%, 62%),
+    "Cyan-color": hsl(180, 62%, 55%),
+    "Orange-color": hsl(34, 97%, 64%),
+    "Blue-color": hsl(212, 86%, 64%),
+);
+
+$neutral-color: (
+    "Very-Dark-Blue": hsl(234, 12%, 34%),
+    "Grayish-Blue": hsl(229, 6%, 66%),
+    "Very-Light-Gray": hsl(0, 0%, 98%),
+);
+
+$main-font-size: 1rem;
+$main-font-family: "Poppins", sans-serif;
+$font-weights: (
+    "light": 200,
+    "medium": 400,
+    "bold": 600
+);
+
+// functions
+@function primaryColor($color) {
+    @return map-get($primary-color, $color);
+}
+@function neutralColor($color) {
+    @return map-get($neutral-color, $color);
+}
+
+// mixins
+
+@mixin flexCenter($direction) {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-direction: $direction; 
+}
+
+@mixin gridCenter() {
+    display: grid;
+    align-items: center;
+    justify-items: center;
+}
+
+
+
+// reset default
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}

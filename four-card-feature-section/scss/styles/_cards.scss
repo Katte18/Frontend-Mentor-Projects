@@ -1,0 +1,15 @@
+.card>div:nth-child(1) {
+    border-top: 3px solid primaryColor(Cyan-color);
+}
+
+.card>div:nth-child(2) {
+    border-top: 3px solid primaryColor(Red-color);
+}
+
+.card>div:nth-child(3) {
+    border-top: 3px solid primaryColor(Orange-color);
+}
+
+.card>div:nth-child(4) {
+    border-top: 3px solid primaryColor(Blue-color);
+}

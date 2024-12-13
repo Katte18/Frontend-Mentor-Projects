@@ -1,0 +1,25 @@
+@import "configs";
+@import "fonts";
+@import "header";
+@import "main";
+@import "cards";
+
+body {
+    width: 100%;
+    height: 100%;
+    margin: 2rem 0;
+    background-color: neutralColor(Very-Light-Gray);
+    color: neutralColor(Grayish-Blue);
+
+    font-family: $main-font-family;
+    font-weight: map-get($font-weights, light);
+
+    @include flexCenter(column);
+}
+
+h1,
+h2 {
+    color: neutralColor(Very-Dark-Blue);
+    font-size: 1.6rem;
+    };
+

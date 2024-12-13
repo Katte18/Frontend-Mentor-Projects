@@ -1,0 +1,56 @@
+article {
+    @include gridCenter();
+}
+
+.card > div {
+    max-width: 20rem;
+    margin: 1.2rem;
+    padding: 1.4rem;
+    border-radius: 6px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 15px -3px, rgba(0, 0, 0, 0.05) 0px 4px 6px -2px;
+}
+
+.card div h2 {
+    font-size: 1.2rem;
+    font-weight: map-get($font-weights, bold);
+}
+
+.card div p {
+    margin-top: 0.8rem;
+    font-size: 0.8rem;
+    font-weight: map-get($font-weights, medium);
+}
+
+.card div figure {
+    float: right;
+    padding-top: 1.4rem;
+}
+
+@media screen and (min-width: 600px) {
+    div:nth-child(1) {
+        grid-row: 3 / -1;
+    }
+
+    div:nth-child(3) {
+        grid-row: 3 / 2;
+    }
+
+    div:nth-child(4) {
+        grid-row: 3 / 1;
+    }
+    
+}
+
+@media screen and (max-width: 1053px) and (min-width: 600px) {
+    article {
+        grid-template-columns: repeat(2, 1fr);
+        grid-row: repeat(2, 1fr);
+    }
+
+    div:nth-child(1),
+    div:nth-child(3),
+    div:nth-child(4){
+        grid-row: unset;
+    }
+
+}
