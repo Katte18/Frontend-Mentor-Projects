@@ -17,6 +17,7 @@ body {
     height: 100vh;
 
     @include flexCenter(center);
+    flex-direction: column;
 
     font-size: $main-font-size;
     font-family: $main-font-family;
@@ -31,4 +32,9 @@ img {
     height: 100%;
     display: block;
 }
+
+footer {
+    padding: 1rem 0;
+}
+
 
