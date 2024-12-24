@@ -21,12 +21,14 @@
         }
     
         .user-info-right.active {
+            position: relative;
+            .share-btn {
             background-color: hsl(214, 17%, 51%);
 
             svg path {
                 fill: #fff;
             }
-
+        }
             .share-popup {
                 display: flex;
             }
@@ -34,14 +36,14 @@
         }
 
         .user-info-right {
+            .share-btn {
             background-color: colorCard(Light-Grayish-Blue);
             padding: 0.6rem;
             border-radius: 50%;
             position: relative;
-            
-            svg {
-                cursor: pointer;
-            }
+            cursor: pointer;
+            }            
+
 
            // share popup style START
             .share-popup {

@@ -15,7 +15,7 @@
 .card .card-img {
   width: 100%;
   height: 100%;
-  background-image: url("../images/drawers.jpg");
+  background-image: url("/images/drawers.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   border-radius: 8px 0 0 8px;
@@ -58,21 +58,22 @@
   color: hsl(212, 23%, 69%);
 }
 .user-info .user-info-right.active {
+  position: relative;
+}
+.user-info .user-info-right.active .share-btn {
   background-color: hsl(214, 17%, 51%);
 }
-.user-info .user-info-right.active svg path {
+.user-info .user-info-right.active .share-btn svg path {
   fill: #fff;
 }
 .user-info .user-info-right.active .share-popup {
   display: flex;
 }
-.user-info .user-info-right {
+.user-info .user-info-right .share-btn {
   background-color: hsl(210, 46%, 95%);
   padding: 0.6rem;
   border-radius: 50%;
   position: relative;
-}
-.user-info .user-info-right svg {
   cursor: pointer;
 }
 .user-info .user-info-right .share-popup {
@@ -203,8 +204,10 @@ img {
   display: block;
 }
 
-footer {
-  padding: 1rem 0;
+button {
+  border: none;
 }
 
-/*# sourceMappingURL=main.css.map */
+footer {
+  padding: 1rem 0;
+}/*# sourceMappingURL=main.css.map */
