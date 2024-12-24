@@ -15,7 +15,7 @@
 .card .card-img {
   width: 100%;
   height: 100%;
-  background-image: url("/images/drawers.jpg");
+  background-image: url("../images/drawers.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   border-radius: 8px 0 0 8px;
