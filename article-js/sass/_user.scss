@@ -1,0 +1,105 @@
+.user-info {
+    @include flexCenter(space-between);
+    gap: 0.4rem;
+    margin-top: 2rem;
+
+    .user-avatar {
+            @include flexCenter(center);
+            gap: 1rem;
+    
+            img {
+                width: 60px;
+                display: block;
+                border-radius: 50%;
+    
+            }
+    
+            .post-date {
+                color: colorCard(Grayish-Blue);
+            }
+    
+        }
+    
+        .user-info-right.active {
+            background-color: hsl(214, 17%, 51%);
+
+            svg path {
+                fill: #fff;
+            }
+
+            .share-popup {
+                display: flex;
+            }
+
+        }
+
+        .user-info-right {
+            background-color: colorCard(Light-Grayish-Blue);
+            padding: 0.6rem;
+            border-radius: 50%;
+            position: relative;
+            
+            svg {
+                cursor: pointer;
+            }
+
+           // share popup style START
+            .share-popup {
+                display: none;
+                position: absolute;
+                right: -4.2rem;
+                top: -4rem;
+    
+                background-color: colorCard(Very-Dark-Grayish-Blue);
+                border-radius: 6px;
+    
+                .social-links {
+                    @include flexCenter(space-around);
+                    padding: 0.8rem 1.4rem;
+                    gap: 0.8rem;
+                }
+
+        
+    
+                figcaption {
+                    color: colorCard(Grayish-Blue);
+                    text-transform: uppercase;
+                    font-size: 0.6rem;
+                    font-weight: map-get($font-weights, bold);
+                    letter-spacing: 0.2rem;
+                }
+    
+                &:after {
+                    content: "";
+                    position: absolute;
+                    transform: rotate(45deg);
+                    bottom: -6px;
+                    left: calc(100% / 2);
+                    border-width: 6px;
+                    border-style: solid;
+                    border-color: transparent hsl(217, 19%, 35%) hsl(217, 19%, 35%) transparent;
+                }
+                
+                .social-links {
+                    img {
+                        width: 18px;
+                        cursor: pointer;
+                    }
+                }
+            }
+    
+           // share popup style END
+
+        }
+
+    
+
+    
+ 
+
+}
+
+
+
+
+

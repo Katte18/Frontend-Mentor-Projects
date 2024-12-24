@@ -1,0 +1,36 @@
+// variables
+
+$color-palette: (
+    "Very-Dark-Grayish-Blue": hsl(217, 19%, 35%),
+    "Desaturated-Dark-Blue": hsl(214, 17%, 51%),
+    "Grayish-Blue": hsl(212, 23%, 69%),
+    "Light-Grayish-Blue": hsl(210, 46%, 95%),
+);
+
+$main-font-size: 0.8rem;
+$main-font-family: "Manrope", sans-serif;
+$font-weights: (
+    "medium": 500,
+    "bold": 700
+);
+
+// functions
+@function colorCard($color) {
+    @return map-get($color-palette, $color);
+}
+
+
+// mixins
+@mixin flexCenter($justify) {
+    display: flex;
+    justify-content: $justify;
+    align-items: center;
+}
+
+@mixin gridCard() {
+    display: grid;
+    grid-template-columns: 1.4fr 2fr;
+    grid-template-rows: 1fr;
+    justify-content: center;
+    align-items: center;
+}

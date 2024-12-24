@@ -1,0 +1,45 @@
+.card {
+    @include gridCard();
+    width: 55%;
+    border-radius: 8px;
+    background-color: #fff;
+    -webkit-box-shadow: 0px 14px 39px -1px rgba(158, 175, 194, 0.59);
+    -moz-box-shadow: 0px 14px 39px -1px rgba(158, 175, 194, 0.59);
+    box-shadow: 0px 14px 39px -1px rgba(158, 175, 194, 0.59);
+
+
+        .card-img {
+            width: 100%; height: 100%;
+            background-image: url('/images/drawers.jpg');
+            background-repeat: no-repeat;
+            background-size: cover;
+            border-radius: 8px 0 0 8px;
+        }
+    
+    
+        .card-txt {
+            grid-column: 2 / 3;
+            padding: 2.4rem;
+
+
+            .card-heading {
+                width: 90%;
+                line-height: 1.4rem;
+            }
+
+            h1 {
+                line-height: 1.6;
+                margin-bottom: 1rem;
+            }
+
+            h1, h3 {
+                color: colorCard(Very-Dark-Grayish-Blue);
+            }
+        }
+
+}
+
+
+
+
+

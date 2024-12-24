@@ -1,0 +1,39 @@
+// card font
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap');
+
+// import styles
+@import "configs";
+@import "card";
+@import "user";
+@import "mobile";
+
+* {
+    margin: 0; padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100%;
+    height: 100vh;
+
+    @include flexCenter(center);
+
+    font-size: $main-font-size;
+    font-family: $main-font-family;
+    font-weight: map-get($font-weights, medium);
+
+    background-color: colorCard(Light-Grayish-Blue);
+    color: colorCard(Desaturated-Dark-Blue);
+}
+
+img {
+    width: 100%;
+    height: 100%;
+    display: block;
+}
+
+.attribution {
+    position: absolute;
+    bottom: 0;
+    padding: 1.2rem;
+}
