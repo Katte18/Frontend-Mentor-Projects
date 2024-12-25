@@ -129,6 +129,7 @@
     align-items: center;
     justify-content: center;
     flex-direction: column;
+    position: relative;
   }
   .card .card-img {
     border-radius: 8px 8px 0 0;
@@ -148,14 +149,15 @@
   }
   .card .card-txt .user-info-right.active {
     z-index: 1;
+    position: static;
   }
   .card .card-txt .user-info-right.active .share-popup {
     display: flex;
-    width: 90%;
-    position: fixed;
-    left: calc((-100vw + 110%) / 2);
+    width: 100%;
+    position: absolute;
+    right: 0;
     top: unset;
-    bottom: 7.9%;
+    bottom: 0;
     min-height: 4rem;
     background-color: hsl(217, 19%, 35%);
     border-radius: 0 0 6px 6px;
