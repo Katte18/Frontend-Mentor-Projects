@@ -155,7 +155,7 @@
     position: fixed;
     left: calc((-100vw + 110%) / 2);
     top: unset;
-    bottom: 3.6rem;
+    bottom: 7.9%;
     min-height: 4rem;
     background-color: hsl(217, 19%, 35%);
     border-radius: 0 0 6px 6px;
