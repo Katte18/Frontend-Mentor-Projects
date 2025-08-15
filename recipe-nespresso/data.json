@@ -1,0 +1,202 @@
+[
+    {
+    "nid": "10",
+    "field_body": "",
+    "field_difficulty": "Medium",
+    "field_cooking_time": "60 minutes",
+    "langcode": "English",
+    "view_node": "/en/recipes/borscht-with-pork-ribs",
+    "title": "Borscht with pork ribs",
+    "field_media_image": "  <a href=\"/en/media/21/edit\" hreflang=\"en\"><img loading=\"lazy\" src=\"/sites/default/files/borscht-with-pork-ribs-umami.jpg\" width=\"768\" height=\"512\" alt=\"Traditional Ukrainian soup with beets, tomatoes, and pork ribs\" />\n</a>\n"
+    },
+    {
+    "nid": "10",
+    "field_body": "",
+    "field_difficulty": "Medium",
+    "field_cooking_time": "60 minutes",
+    "langcode": "Spanish",
+    "view_node": "/es/recipes/borscht-con-costillas-de-cerdo",
+    "title": "Borscht con costillas de cerdo",
+    "field_media_image": "  <a href=\"/es/media/21/edit\" hreflang=\"es\"><img loading=\"lazy\" src=\"/sites/default/files/borscht-with-pork-ribs-umami.jpg\" width=\"768\" height=\"512\" alt=\"Sopa tradicional ucraniana de remolacha, tomates y costillas de cerdo\" />\n</a>\n"
+    },
+    {
+    "nid": "9",
+    "field_body": "",
+    "field_difficulty": "Medium",
+    "field_cooking_time": "60 minutes",
+    "langcode": "English",
+    "view_node": "/en/recipes/fiery-chili-sauce",
+    "title": "Fiery chili sauce",
+    "field_media_image": "  <a href=\"/en/media/9/edit\" hreflang=\"en\"><img loading=\"lazy\" src=\"/sites/default/files/chili-sauce-umami.jpg\" width=\"768\" height=\"512\" alt=\"An iridescent array of chilies, onions, and garlic, slowly sweating over a low heat\" />\n</a>\n"
+    },
+    {
+    "nid": "9",
+    "field_body": "",
+    "field_difficulty": "Medium",
+    "field_cooking_time": "60 minutes",
+    "langcode": "Spanish",
+    "view_node": "/es/recipes/salsa-de-chile-ardiente",
+    "title": "Salsa de chile ardiente",
+    "field_media_image": "  <a href=\"/es/media/9/edit\" hreflang=\"es\"><img loading=\"lazy\" src=\"/sites/default/files/chili-sauce-umami.jpg\" width=\"768\" height=\"512\" alt=\"Una variedad iridiscente de chiles, cebollas y ajo, que suda lentamente a fuego lento\" />\n</a>\n"
+    },
+    {
+    "nid": "8",
+    "field_body": "",
+    "field_difficulty": "Medium",
+    "field_cooking_time": "20 minutes",
+    "langcode": "English",
+    "view_node": "/en/recipes/crema-catalana",
+    "title": "Crema catalana",
+    "field_media_image": "  <a href=\"/en/media/8/edit\" hreflang=\"en\"><img loading=\"lazy\" src=\"/sites/default/files/crema-catalana-umami.jpg\" width=\"768\" height=\"512\" alt=\"Typical Catalan dessert made from cream and egg yolks, covered with a traditional layer of caramelized sugar to provide a crispy contrast\" />\n</a>\n"
+    },
+    {
+    "nid": "8",
+    "field_body": "",
+    "field_difficulty": "Medium",
+    "field_cooking_time": "20 minutes",
+    "langcode": "Spanish",
+    "view_node": "/es/recipes/crema-catalana",
+    "title": "Crema catalana",
+    "field_media_image": "  <a href=\"/es/media/8/edit\" hreflang=\"es\"><img loading=\"lazy\" src=\"/sites/default/files/crema-catalana-umami.jpg\" width=\"768\" height=\"512\" alt=\"Postre típico catalán hecho de crema y yemas de huevo, cubierto con una capa tradicional de azúcar caramelizado para proporcionar un contraste crujiente.\" />\n</a>\n"
+    },
+    {
+    "nid": "7",
+    "field_body": "",
+    "field_difficulty": "Medium",
+    "field_cooking_time": "15 minutes",
+    "langcode": "English",
+    "view_node": "/en/recipes/thai-green-curry",
+    "title": "Thai green curry",
+    "field_media_image": "  <a href=\"/en/media/7/edit\" hreflang=\"en\"><img loading=\"lazy\" src=\"/sites/default/files/thai-green-curry-umami.jpg\" width=\"768\" height=\"512\" alt=\"A traditional bowl of creamy, aromatic Thai green curry with chunks of chicken in a small bowl with jasmine rice\" />\n</a>\n"
+    },
+    {
+    "nid": "7",
+    "field_body": "",
+    "field_difficulty": "Medium",
+    "field_cooking_time": "15 minutes",
+    "langcode": "Spanish",
+    "view_node": "/es/recipes/curry-verde-tailandes",
+    "title": "Curry verde tailandés",
+    "field_media_image": "  <a href=\"/es/media/7/edit\" hreflang=\"es\"><img loading=\"lazy\" src=\"/sites/default/files/thai-green-curry-umami.jpg\" width=\"768\" height=\"512\" alt=\"Un tazón tradicional de curry verde tailandés aromático y cremoso, con trozos de pollo y verduras.\" />\n</a>\n"
+    },
+    {
+    "nid": "6",
+    "field_body": "",
+    "field_difficulty": "Medium",
+    "field_cooking_time": "15 minutes",
+    "langcode": "Spanish",
+    "view_node": "/es/recipes/pizza-sin-gluten",
+    "title": "Pizza sin gluten",
+    "field_media_image": "  <a href=\"/es/media/6/edit\" hreflang=\"es\"><img loading=\"lazy\" src=\"/sites/default/files/pizza-umami.jpg\" width=\"768\" height=\"512\" alt=\"Aceitunas, albahaca y mozzarella cubren una masa de pizza sin gluten con salsa de tomate.\" />\n</a>\n"
+    },
+    {
+    "nid": "6",
+    "field_body": "",
+    "field_difficulty": "Medium",
+    "field_cooking_time": "15 minutes",
+    "langcode": "English",
+    "view_node": "/en/recipes/gluten-free-pizza",
+    "title": "Gluten free pizza",
+    "field_media_image": "  <a href=\"/en/media/6/edit\" hreflang=\"en\"><img loading=\"lazy\" src=\"/sites/default/files/pizza-umami.jpg\" width=\"768\" height=\"512\" alt=\"Olives, basil, and mozzarella top a gluten free pizza crust with marinara sauce\" />\n</a>\n"
+    },
+    {
+    "nid": "5",
+    "field_body": "",
+    "field_difficulty": "Easy",
+    "field_cooking_time": "20 minutes",
+    "langcode": "English",
+    "view_node": "/en/recipes/victoria-sponge-cake",
+    "title": "Victoria sponge cake",
+    "field_media_image": "  <a href=\"/en/media/5/edit\" hreflang=\"en\"><img loading=\"lazy\" src=\"/sites/default/files/victoria-sponge-umami.jpg\" width=\"768\" height=\"512\" alt=\"A classic, uncut Victoria sponge with a deep filling of butter cream and jam\" />\n</a>\n"
+    },
+    {
+    "nid": "5",
+    "field_body": "",
+    "field_difficulty": "Easy",
+    "field_cooking_time": "20 minutes",
+    "langcode": "Spanish",
+    "view_node": "/es/recipes/pastel-victoria",
+    "title": "Pastel Victoria",
+    "field_media_image": "  <a href=\"/es/media/5/edit\" hreflang=\"es\"><img loading=\"lazy\" src=\"/sites/default/files/victoria-sponge-umami.jpg\" width=\"768\" height=\"512\" alt=\"Una esponja Victoria clásica, sin cortar, con un relleno profundo de crema de mantequilla y mermelada\" />\n</a>\n"
+    },
+    {
+    "nid": "4",
+    "field_body": "",
+    "field_difficulty": "Easy",
+    "field_cooking_time": "20 minutes",
+    "langcode": "Spanish",
+    "view_node": "/es/recipes/sopa-de-berro",
+    "title": "Sopa de berro",
+    "field_media_image": "  <a href=\"/es/media/4/edit\" hreflang=\"es\"><img loading=\"lazy\" src=\"/sites/default/files/watercress-soup-umami.jpg\" width=\"768\" height=\"512\" alt=\"Sopa de berros con una ramita de cilantro como guarnición en un tazón blanco con borde verde.\" />\n</a>\n"
+    },
+    {
+    "nid": "4",
+    "field_body": "",
+    "field_difficulty": "Easy",
+    "field_cooking_time": "20 minutes",
+    "langcode": "English",
+    "view_node": "/en/recipes/watercress-soup",
+    "title": "Watercress soup",
+    "field_media_image": "  <a href=\"/en/media/4/edit\" hreflang=\"en\"><img loading=\"lazy\" src=\"/sites/default/files/watercress-soup-umami.jpg\" width=\"768\" height=\"512\" alt=\"Watercress soup with a sprig of coriander as garnish in a white bowl with green trim\" />\n</a>\n"
+    },
+    {
+    "nid": "3",
+    "field_body": "",
+    "field_difficulty": "Easy",
+    "field_cooking_time": "20 minutes",
+    "langcode": "English",
+    "view_node": "/en/recipes/super-easy-vegetarian-pasta-bake",
+    "title": "Super easy vegetarian pasta bake",
+    "field_media_image": "  <a href=\"/en/media/3/edit\" hreflang=\"en\"><img loading=\"lazy\" src=\"/sites/default/files/veggie-pasta-bake-umami.jpg\" width=\"768\" height=\"511\" alt=\"Cheesy pasta dish with vegetarian sausages and topped with mozzarella cheese and basil\" />\n</a>\n"
+    },
+    {
+    "nid": "3",
+    "field_body": "",
+    "field_difficulty": "Easy",
+    "field_cooking_time": "20 minutes",
+    "langcode": "Spanish",
+    "view_node": "/es/recipes/pasta-vegetariana-horno-super-facil",
+    "title": "Pasta vegetariana al horno súper fácil",
+    "field_media_image": "  <a href=\"/es/media/3/edit\" hreflang=\"es\"><img loading=\"lazy\" src=\"/sites/default/files/veggie-pasta-bake-umami.jpg\" width=\"768\" height=\"511\" alt=\"Plato de pasta con salchichas vegetarianas y cubierto con queso mozzarella y albahaca\" />\n</a>\n"
+    },
+    {
+    "nid": "2",
+    "field_body": "",
+    "field_difficulty": "Medium",
+    "field_cooking_time": "20 minutes",
+    "langcode": "English",
+    "view_node": "/en/recipes/vegan-chocolate-and-nut-brownies",
+    "title": "Vegan chocolate and nut brownies",
+    "field_media_image": "  <a href=\"/en/media/2/edit\" hreflang=\"en\"><img loading=\"lazy\" src=\"/sites/default/files/vegan-chocolate-nut-brownies.jpg\" width=\"770\" height=\"512\" alt=\"A stack of chocolate and pecan brownies, sprinkled with pecan crumbs and crushed walnut, fresh out of the oven\" />\n</a>\n"
+    },
+    {
+    "nid": "2",
+    "field_body": "",
+    "field_difficulty": "Medium",
+    "field_cooking_time": "20 minutes",
+    "langcode": "Spanish",
+    "view_node": "/es/recipes/bizcochos-veganos-de-chocolate-y-nueces",
+    "title": "Bizcochos veganos de chocolate y nueces",
+    "field_media_image": "  <a href=\"/es/media/2/edit\" hreflang=\"es\"><img loading=\"lazy\" src=\"/sites/default/files/vegan-chocolate-nut-brownies.jpg\" width=\"770\" height=\"512\" alt=\"Una pila de brownies de chocolate y nuez, rociados con migas de nuez y nuez triturada, recién sacados del horno\" />\n</a>\n"
+    },
+    {
+    "nid": "1",
+    "field_body": "",
+    "field_difficulty": "Medium",
+    "field_cooking_time": "30 minutes",
+    "langcode": "Spanish",
+    "view_node": "/es/recipes/quiche-mediterr%C3%A1neo-profundo",
+    "title": "Quiche mediterráneo profundo",
+    "field_media_image": "  <a href=\"/es/media/1/edit\" hreflang=\"es\"><img loading=\"lazy\" src=\"/sites/default/files/mediterranean-quiche-umami.jpg\" width=\"768\" height=\"511\" alt=\"Un delicioso quiche mediterráneo de capas profundas con guarnición de albahaca.\" />\n</a>\n"
+    },
+    {
+    "nid": "1",
+    "field_body": "",
+    "field_difficulty": "Medium",
+    "field_cooking_time": "30 minutes",
+    "langcode": "English",
+    "view_node": "/en/recipes/deep-mediterranean-quiche",
+    "title": "Deep mediterranean quiche",
+    "field_media_image": "  <a href=\"/en/media/1/edit\" hreflang=\"en\"><img loading=\"lazy\" src=\"/sites/default/files/mediterranean-quiche-umami.jpg\" width=\"768\" height=\"511\" alt=\"A delicious deep layered Mediterranean quiche with basil garnish\" />\n</a>\n"
+    }
+    ]
