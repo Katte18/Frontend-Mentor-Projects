@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Food Magazine</title>
+    <link rel="stylesheet" href="./styles/style.css">
+    <link rel="stylesheet" href="./styles/mobile.css">
+</head>
+<body>
+    <main class="recipe">
+        <!--  Search Bar START -->
+        <div class="lang-search">
+            <div class="lang-switcher">
+                <p>English</p>
+            </div>
+
+
+            <div class="search-wrapper">
+                <input type="text" id="search" placeholder="Search recipes...">
+                <button type="button" id="search-button">Search</button>
+            </div>
+
+            <div class="login">
+                <a href="#login">Log in</a>
+            </div>
+        </div>
+        <!--  Search Bar END -->
+
+
+        <!--  Navigation Menu START -->
+        <nav class="main-menu">
+            <div class="logo">
+                <a href="#home">
+                    <img src="https://images.seeklogo.com/logo-png/9/1/nestle-logo-png_seeklogo-98337.png" alt="LOGO" width="60" height="60">
+                </a>
+            </div>
+            <ul class="main-menu-item">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#articles">Articles</a></li>
+                <li><a href="#recipes">Recipes</a></li>
+            </ul>
+            <div class="mobile-menu">
+                <div class="menu-line"></div>
+                <div class="menu-line"></div>
+                <div class="menu-line"></div>
+            </div>
+        </nav>
+
+        <!--  Navigation Menu END -->
+
+        <!--  Hero banner START -->
+        <header>
+            <div class="header-text"></div>
+        </header>
+            <div class="header-text-mobile"></div>
+        <!--  Hero banner END -->
+
+        <!-- Breadcrumbs START Breadcrumbs START -->    
+        <div class="breadcrumbs">
+            <a href="#home">Home</a>
+            <span>&gt&gt;</span>
+            <a href="#recipes">Recipes</a> 
+        </div>
+        <!--  Breadcrumbs END -->
+
+        <!--  Recipe details START -->
+        <section class="recipe-details">
+            <h2>Recipes</h2>
+            <div class="filter-recipe">
+                <label for="filter-recipe-difficulty">Recipe Difficulty</label>
+                <select id="filter-recipe-difficulty">
+                    <option value="all">- Any -</option>
+                    <option value="Easy">Easy</option>
+                    <option value="Medium">Medium</option>
+                </select>
+
+                <label for="filter-recipe-time">Cooking Time</label>
+                <input type="text" id="filter-recipe-time" placeholder="e.g. 30 minutes">
+
+                <div class="lang-filter">
+                    <label for="en">
+                        <input type="radio" id="filter-recipe-language-en" name="lang" value="English" checked>
+                        <span>EN</span>
+                    </label>
+                    
+                    <label for="es">
+                        <input type="radio" id="filter-recipe-language-es" name="lang" value="Spanish">
+                        <span>ES</span>
+                    </label>
+                </div>
+                
+                <div class="recipe-card"></div>
+                
+            </div>
+
+
+        </section>
+        <!--  Recipe details END -->
+
+        <!--  Footer START -->
+        <footer>
+            <p>&copy; 2023 Food Magazine. All rights reserved.</p>
+        </footer>
+        <!--  Footer END -->
+    </main>
+    <script src="./app.js"></script>
+</body>
+</html>
